@@ -8,12 +8,11 @@ import java.text.CharacterIterator
 fun main (args: Array<String>) {
 
     println("Escreva algo : ")
-    var textoInput = readLine()
 
-    var nome   = textoInput
+    var nome   = readLine()
 
 
-    nome = nome?.replace(" ", "");
+    nome = nome?.replace(" ", "")
 
 
 
