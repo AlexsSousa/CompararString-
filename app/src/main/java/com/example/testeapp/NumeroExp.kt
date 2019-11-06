@@ -13,7 +13,7 @@ fun main (args: Array<String>) {
     var nome   = textoInput
 
 
-    nome = nome?.replace(" ", "")
+    nome = nome?.replace(" ", "");
 
 
 
